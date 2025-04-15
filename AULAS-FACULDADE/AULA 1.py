@@ -9,7 +9,7 @@ for i in range(3):
         num = int(input("\nDigite um número Inteiro por vez: "))
 
         if num < 18:
-            print(f"\nO número escolhido foi {num} ele me diz que você vai ter sorte amanhã!")
+            print(f"\n😢 O número escolhido foi {num} ele me diz que você vai ter sorte amanhã!")
         
         elif 18 <= num >= 22:
             print(f"\n✅ O número escolhido foi {num} e ele é um dos números de sorte do dia")
